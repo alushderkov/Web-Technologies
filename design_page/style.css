@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+:root {
+    --back: #121517;
+    --font-colour: #d9d9d9;
+}
+
+/*
+regular 400
+medium 500
+semibold 600
+extraBold 800
+*/
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+
+
+    font-family: "Montserrat", serif;
+    color: var(--font-colour);
+
+    font-size: 20px;
+    line-height: 163%;
+    letter-spacing: -0.02em;
+
+    background-color: var(--back);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2 {
+    font-weight: 800;
+    margin: 0;
+}
+
+a {
+    color: var(--font-colour);
+    text-decoration: none;
+    transition: opacity 0.3s;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.text-gradient {
+    background: linear-gradient(223deg, #237249 0%, #35c66b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 37px;
+    line-height: 109%;
+    letter-spacing: -0.03em;
+    background: linear-gradient(223deg, #237249 0%, #35c66b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.header {
+    padding: 50px 0;
+}
+
+.header .container {
+    display: flex;
+    align-items: baseline;
+    gap: 95px
+}
+
+.header__link + .header__link {
+    margin-left: 95px;
+}
+
+.main {
+
+}
+
+.title {
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 109%;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+.welcome__desk {
+    max-width: 575px;
+}
+
+.welcome__title {
+    margin-bottom: 55px;
+    position: relative;
+}
+
+.welcome__title::before {
+    content: "";
+
+    position: absolute;
+    z-index: -5;
+
+    left: 40px;
+    top: 80px;
+
+    width: 140px;
+    height: 140px;
+
+    border-radius: 100%;
+    background: linear-gradient(245deg, rgba(35, 114, 73, 0.55) 0%,
+    rgba(53, 198, 107, 0.73) 51.85%);
+    filter: blur(90px);
+}
+
+.welcome__text {
+    margin-bottom: 55px;
+}
+
+.welcome__btns-wrapper {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 55px;
+
+}
+
+.btn {
+    padding: 20px 80px;
+    border-radius: 83px;
+    background: linear-gradient(210deg, #237249 0%, #35c66b 100%);
+    font-weight: 639;
+    font-size: 24px;
+    letter-spacing: -0.02em;
+    color: #fff;
+    transition: 1s;
+}
+
+.btn:hover {
+    color: #fff;
+    background: linear-gradient(30deg, #237249 0%, #35c66b 100%);
+}
+
+.link {
+    padding: 20px 54px;
+    border: 1px solid #dadada;
+    border-radius: 83px;
+    background: var(--back);
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: -0.03em;
+    color: var(--font-colour);
+}
+
+.welcome {
+ margin-top: 30px;
+}
+
+.welcome .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stats {
+    display: flex;
+    gap: 45px;
+}
+
+.stats__num {
+    font-size: 62px;
+    line-height: 109%;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+.stats__num::after {
+    content: "+";
+    background: linear-gradient(244deg, #237249 0%, #35c66b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.stat__item {
+    width: 126px;
+    font-size: 20px;
+    line-height: 144%;
+    letter-spacing: -0.02em;
+    color: var(--font-colour);
+}
+
+.welcome__img-wrapper {
+    padding-right: 60px;
+    position: relative;
+}
+
+.welcome__img {
+    width: 470px;
+}
+
+.welcome__img-wrapper::before {
+    content: "";
+    width: 860px;
+    height: 620px;
+
+    position: absolute;
+    right: -230px;
+    bottom: -180px;
+
+    background-image: url("./design/images/icons/lines.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    z-index: -10;
+}
+
+.welcome__img-wrapper::after {
+    content: "";
+
+    position: absolute;
+    z-index: -5;
+
+    right: 140px;
+    bottom: 60px;
+
+    width: 300px;
+    height: 300px;
+
+    border-radius: 100%;
+    background: linear-gradient(245deg, rgba(35, 114, 73, 0.55) 0%,
+    rgba(53, 198, 107, 0.73) 51.85%);
+    filter: blur(110px);
+}
+
