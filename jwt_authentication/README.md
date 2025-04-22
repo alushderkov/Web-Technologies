@@ -170,4 +170,3 @@ curl http://localhost:3500/refresh   --cookie "jwt=<refresh_token>"
 curl -X POST http://localhost:3500/logout   --cookie "jwt=<refresh_token>"
 ```
 
----
