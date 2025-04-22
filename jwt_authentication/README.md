@@ -6,6 +6,14 @@ This system implements JSON Web Token (JWT) based authentication for a Node.js/E
 
 ---
 
+## To Start
+
+```bash
+npm run dev
+```
+
+---
+
 ## Features
 
 - JWT-based authentication with access and refresh tokens  
