@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head><title>Форма с капчей</title></head>
+<body>
+<form method="POST" action="/send">
+    <p>Email: <input type="email" name="email" required></p>
+    <p>Сообщение: <textarea name="message" required></textarea></p>
+    <div>
+        <div><%- captcha %></div>
+        <input type="text" name="captcha" placeholder="Введите капчу" required>
+    </div>
+    <% if (error) { %>
+        <p style="color: red;"><%- error %></p>
+    <% } %>
+    <button type="submit">Отправить</button>
+</form>
+</body>
+</html>

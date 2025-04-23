@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "async-queue": "^0.1.0",
+    "axios": "^1.8.4",
+    "body-parser": "^2.2.0",
+    "cheerio": "^1.0.0",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.5.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "fs": "^0.0.1-security",
+    "jsdom": "^26.1.0",
+    "multer": "^1.4.5-lts.2",
+    "nodemailer": "^6.10.1",
+    "path": "^0.12.7",
+    "progress": "^2.0.3",
+    "puppeteer": "^24.7.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "sanitize-filename": "^1.6.3",
+    "svg-captcha": "^1.4.0"
+  },
+  "name": "__statistic_page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "directed_images_downloading.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
