@@ -5,11 +5,13 @@ This folder contains a set of independent Node.js utilities for various purposes
 ## Installation
 
 1. Clone the repository  
-2. Install dependencies:
+2. Install dependencies:  
+
    ```bash
    npm install
    ```
-3. Set up your database by running:
+3. Set up your database by running:  
+
    ```bash
    mysql -u root -p < table.sql
    ```
@@ -22,12 +24,14 @@ This folder contains a set of independent Node.js utilities for various purposes
 
 **How to use**:
 1. Configure your database and Mailtrap credentials in `.env`
-2. Start the server:
+2. Start the server:  
+
    ```bash
    node server.js
    ```
 3. Emails will be sent automatically on startup  
-4. You can also trigger sending manually by visiting:
+4. You can also trigger sending manually by visiting:  
+
    ```
    http://localhost:3000/send-emails
    ```
@@ -40,7 +44,8 @@ This folder contains a set of independent Node.js utilities for various purposes
 
 **How to use**:
 1. Place your images in an `images` folder  
-2. Run the processor:
+2. Run the processor:  
+
    ```bash
    node image_processor.js
    ```
@@ -53,11 +58,13 @@ This folder contains a set of independent Node.js utilities for various purposes
 **Purpose**: Tracks and displays browser usage statistics.
 
 **How to use**:
-1. Start the server:
+1. Start the server:  
+
    ```bash
    node extra.js
    ```
-2. Visit in different browsers:
+2. Visit in different browsers:  
+
    ```
    http://localhost:3000
    ```
@@ -71,7 +78,8 @@ This folder contains a set of independent Node.js utilities for various purposes
 
 **How to use**:
 1. Edit `directoriesToArchive` array in the file to point to your directories  
-2. Run the script:
+2. Run the script:  
+
    ```bash
    node archiver.js
    ```
@@ -99,13 +107,15 @@ DB_NAME=your_db_name
 To test all utilities:
 
 1. Install dependencies and set up database  
-2. Start each utility in separate terminal windows:
+2. Start each utility in separate terminal windows:  
+
    ```bash
    node server.js
    node extra.js
    node archiver.js
    ```
-3. For image processing, run when needed:
+3. For image processing, run when needed:  
+
    ```bash
    node image_processor.js
    ```
