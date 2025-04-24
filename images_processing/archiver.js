@@ -5,12 +5,12 @@ const cron = require('node-cron');
 
 // Массив каталогов, которые нужно архивировать
 const directoriesToArchive = [
-  'D:\\bsuir\\web_technologies\\__data_page',
-  'D:\\bsuir\\web_technologies\\__data_page\\images'
+  'D:\\bsuir\\web_technologies\\images_processing',
+  'D:\\bsuir\\web_technologies\\images_processing\\images'
 ];
 
 // Абсолютный путь для сохранения архивов
-const archiveDir = path.join('D:\\bsuir\\web_technologies\\__data_page', 'archives');
+const archiveDir = path.join('D:\\bsuir\\web_technologies\\images_processing', 'archives');
 if (!fs.existsSync(archiveDir)) {
   fs.mkdirSync(archiveDir); // Создаём папку, если её нет
 }

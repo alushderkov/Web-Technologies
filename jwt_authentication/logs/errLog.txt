@@ -1,1 +1,9 @@
 20250422	14:20:01	fca9e290-f961-489b-91f1-d9d45afb203d	TypeError: jwt.sing is not a function
+20250424	11:05:29	2ce5fbaa-ec0d-4052-9b58-41b5357bbaba	TypeError: Cannot read properties of undefined (reading 'username')
+20250424	11:09:50	b8d0264e-d03b-49c6-9a53-59f15b461d32	TypeError: Cannot read properties of undefined (reading 'username')
+20250424	11:10:00	38dfa2e1-a911-4ff0-9fa9-f1cf5101eefe	TypeError: Cannot read properties of undefined (reading 'username')
+20250424	11:19:59	dda93261-a6da-4ebb-8879-bbe001f05114	TypeError: Cannot read properties of undefined (reading 'username')
+20250424	11:20:33	ca8b44f0-2ab3-489c-9c6f-6e3768d5948c	TypeError: Cannot read properties of undefined (reading 'username')
+20250424	11:20:54	5ee36933-bfb3-494c-8cf8-47e7f3c9ad63	TypeError: Cannot read properties of undefined (reading 'username')
+20250424	11:21:18	51efc18e-2ccf-4213-bd87-9e87e6a170ca	TypeError: Cannot read properties of undefined (reading 'username')
+20250424	11:21:19	16a9f498-c367-4045-82bb-8b2df920430c	TypeError: Cannot read properties of undefined (reading 'username')
